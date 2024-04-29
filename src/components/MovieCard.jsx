@@ -9,7 +9,7 @@ export function MovieCard({movie}) {
 
     return (
         <li className={styles.movieCard}>
-            <Link to={"/movies/"+movie.id}>
+            <Link to={"/pelicula-react/build/movies/"+movie.id}>
                 <img className="movieImage"
                 width={230}
                 height={345}
